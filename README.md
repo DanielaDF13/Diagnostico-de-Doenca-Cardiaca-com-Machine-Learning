@@ -2,9 +2,16 @@
 
 Este projeto oferece uma aplicação interativa utilizando **Streamlit** e **modelos de aprendizado de máquina** para prever a presença de doenças cardíacas com base em dados clínicos. 
 
-###  Objetivo
+## Objetivo
 
-Utilizar algoritmos de machine learning para identificar pacientes de alto risco
+A doença cardíaca é uma das principais causas de morte no mundo. Diagnósticos precoces e precisos podem salvar vidas e melhorar a qualidade de vida dos pacientes. O objetivo deste projeto é auxiliar profissionais de saúde no **diagnóstico precoce de doenças cardíacas** por meio de técnicas de aprendizado de máquina.
+
+A base de dados utilizada neste projeto é proveniente do repositório UCI Machine Learning Repository, contendo informações clínicas e demográficas de pacientes. Com base nessas informações, pretende-se desenvolver um modelo capaz de prever a **presença ou ausência de doença cardíaca**.
+
+Essa previsão pode ser uma ferramenta valiosa para:
+- Apoiar decisões médicas;
+- Identificar pacientes de alto risco;
+- Direcionar exames e recursos de forma mais eficaz.
 
 ---
 
@@ -18,7 +25,7 @@ Utilizar algoritmos de machine learning para identificar pacientes de alto risco
 
 ---
 
-### Funcionalidades
+### Funcionalidades do Streamlit
 
 - **Upload de datasets customizados (.csv)**: Permite que o usuário faça o upload de arquivos CSV para análise, com a possibilidade de carregar dados de diferentes fontes.
 
